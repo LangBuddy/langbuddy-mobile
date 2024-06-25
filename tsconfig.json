@@ -1,0 +1,11 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "target": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "rootDir": "./",
+    "baseUrl": "./"
+  },
+  "exclude": ["node_modules", "dist"]
+}
